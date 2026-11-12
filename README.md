@@ -1,6 +1,6 @@
 # Yüksek Frekans Jeneratörü: Safety 4.0 Laboratuvar Föyleri
 
-Bu repo, Safety 4.0 dersinin ilk dört haftasındaki laboratuvar föylerini ve bir SWOT analizini içeriyor. Bütün çalışma tek bir makine üzerinden yürüyor: Sonar Elektronik'in (İzmir) ahşap tutkallama ve bükme preslerinde kullanılan 13,56 MHz yüksek frekans jeneratörü. İlandaki 30 / 45 / 60 kW seçeneklerinden **60 kW RF çıkışlı** model seçildi.
+Bu repo, Safety 4.0 dersinin ilk yedi haftasındaki laboratuvar föylerini ve bir SWOT analizini içeriyor. Bütün çalışma tek bir makine üzerinden yürüyor: Sonar Elektronik'in (İzmir) ahşap tutkallama ve bükme preslerinde kullanılan 13,56 MHz yüksek frekans jeneratörü. İlandaki 30 / 45 / 60 kW seçeneklerinden **60 kW RF çıkışlı** model seçildi.
 
 Makine ilanı: [twm.com.tr/tr/ilan/yuksek-frekans-jeneratoru](https://twm.com.tr/tr/ilan/yuksek-frekans-jeneratoru)
 
@@ -12,6 +12,9 @@ Makine ilanı: [twm.com.tr/tr/ilan/yuksek-frekans-jeneratoru](https://twm.com.tr
 | 2 | IEC 62443'e göre bölge ve geçit tasarımı | [md](lab_foyleri/hafta-2-bolge-ve-gecit-tasarimi.md) | [pdf](lab_foyleri/hafta-2-bolge-ve-gecit-tasarimi.pdf) |
 | 3 | Tehdit senaryoları ve risk değerlendirmesi | [md](lab_foyleri/hafta-3-tehdit-ve-risk.md) | [pdf](lab_foyleri/hafta-3-tehdit-ve-risk.pdf) |
 | 4 | Güvenli uzak servis erişimi | [md](lab_foyleri/hafta-4-guvenli-uzak-erisim.md) | [pdf](lab_foyleri/hafta-4-guvenli-uzak-erisim.pdf) |
+| 5 | Yazılım bileşenleri (SBOM), zafiyetler ve yama kararı | [md](lab_foyleri/hafta-5-sbom-zafiyet-ve-yama.md) | [pdf](lab_foyleri/hafta-5-sbom-zafiyet-ve-yama.pdf) |
+| 6 | Olay müdahalesi ve CRA bildirim zaman çizelgesi | [md](lab_foyleri/hafta-6-olay-mudahalesi-ve-cra.md) | [pdf](lab_foyleri/hafta-6-olay-mudahalesi-ve-cra.pdf) |
+| 7 | Yapay zekâ destekli kontrolde güvenli başarısızlık | [md](lab_foyleri/hafta-7-yapay-zeka-ve-guvenli-basarisizlik.md) | [pdf](lab_foyleri/hafta-7-yapay-zeka-ve-guvenli-basarisizlik.pdf) |
 
 ## Diğer belgeler
 
@@ -20,7 +23,7 @@ Makine ilanı: [twm.com.tr/tr/ilan/yuksek-frekans-jeneratoru](https://twm.com.tr
 
 ## Bilmeniz gerekenler
 
-- İlandaki standart jeneratörün paneli analog. Föylerde PLC, HMI, safety PLC ve uzak servis içeren bağlı bir kurulum **varsayıldı**. Bu varsayımların listesi makine-bilgisi.md'de (VS-1–VS-10).
+- İlandaki standart jeneratörün paneli analog. Föylerde PLC, HMI, safety PLC ve uzak servis içeren bağlı bir kurulum **varsayıldı**. Hafta 5'teki yazılım bileşenleri ve zafiyet kayıtları, Hafta 6'daki olay ve Hafta 7'deki YZ modülü de kurgusal. Bu varsayımların listesi makine-bilgisi.md'de (VS-1–VS-12).
 - Föyler bir eğitim çalışması. Gerçek bir risk değerlendirmesi ya da uygunluk değerlendirmesi değil.
 - Bu çalışma yapay zekâ asistanı Claude (Anthropic) desteğiyle hazırlandı. Kaynaklar ve varsayımlar her belgede ayrıca belirtildi.
 

@@ -99,8 +99,10 @@ Aşağıdakiler kaynakta yok. Bu sınıf bir makinede olması gereken yapı vars
 | VS-8 | PLC, üretim adetlerini tesisin üretim takip bilgisayarına OPC UA ile gönderiyor | Tesis ağı bağlantısı için |
 | VS-9 | Ark koruması olarak paneldeki anot ve grid aşırı akım korumaları dikkate alındı; ayrı bir ark dedektörü olup olmadığı bilinmiyor | Yangın tehlikesinin değerlendirilmesi için |
 | VS-10 | Kaçak RF alan değerleri bilinmiyor; maruziyet tehlikesi paneldeki uyarı etiketine dayanarak ele alındı | Ölçüm verisi yok |
+| VS-11 | Hafta 5'teki yazılım malzeme listesi (S1–S10), bileşen sürümleri ve üç zafiyet kaydı (Z-1–Z-3) kurgusal; gerçek CVE numarası kullanılmadı | Makinenin gerçek yazılım içeriği bilinmiyor |
+| VS-12 | Hücreye kamera ve nem ölçer kullanan bir YZ modülü eklendi: giriş kontrolü (UYGUN/RED) ve ısıtma süresi önerisi; model çalışırken öğrenmiyor; ayrıca endüktif metal dedektörü | Hafta 7'nin konusu için; standart makinede YZ yok |
 
-Hafta 4'te geçen "mevcut uzak erişim" mimarisi de bir varsayımdır: sahada sık rastlanan, aceleyle kurulmuş bir modem bağlantısı örnek alındı. Sonar'ın gerçek uzak servis uygulaması bilinmiyor.
+Hafta 4'te geçen "mevcut uzak erişim" mimarisi de bir varsayımdır: sahada sık rastlanan, aceleyle kurulmuş bir modem bağlantısı örnek alındı. Sonar'ın gerçek uzak servis uygulaması bilinmiyor. Hafta 6'daki olay senaryosu da kurgusaldır.
 
 ## 5. Bulunamayan bilgiler
 
@@ -118,7 +120,11 @@ Hafta 4'te geçen "mevcut uzak erişim" mimarisi de bir varsayımdır: sahada s�
 |---|---|---|---|
 | Makine Yönetmeliği (AB) 2023/1230 | OJ L 165, 29.6.2023; düzeltme OJ L 169, 4.7.2023 | 19 Temmuz 2023 | 20 Ocak 2027 (2006/42/AT aynı tarihte yürürlükten kalkar) |
 | Siber Dayanıklılık Yasası (AB) 2024/2847 | OJ L, 20.11.2024 | 10 Aralık 2024 | Genel: 11 Aralık 2027; madde 14 (bildirim yükümlülükleri): 11 Eylül 2026; IV. bölüm: 11 Haziran 2026 |
+| Yapay Zekâ Yasası (AB) 2024/1689 | OJ L, 12.7.2024 | 1 Ağustos 2024 | Genel: 2 Ağustos 2026; Ek I'e bağlı yüksek riskli sistemler (md. 6/1): 2 Ağustos 2028 (2026/1744 ile; ilk metinde 2 Ağustos 2027) |
+| Digital Omnibus on AI (AB) 2026/1744 | OJ L, 24.7.2026 | 27 Temmuz 2026 | 2024/1689 ve 2023/1230'u değiştirir; makine mevzuatı AI Act Ek I'in A bölümünden B bölümüne taşındı |
 
 2023/1230'un ilk yayımlanan metninde uygulama tarihi "14 Ocak 2027" yazıyor. Düzeltme ilanı bunu 20 Ocak 2027 olarak değiştirdi. Ek III'te 1.1.9 maddesi (bozulmaya karşı koruma) ve 1.2.1 maddesi (kontrol sistemlerinin güvenliği ve güvenilirliği) bağlı makineler için doğrudan ilgili.
 
-Kaynaklar: [2023/1230](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1230), [düzeltme](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1230R(01)), [2024/2847](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2847).
+CRA'da madde 14'e göre üreticinin bildirim süreleri 24 saat (erken uyarı) ve 72 saattir (bildirim). Son rapor, aktif istismar edilen zafiyette önlem sunulduktan sonra en geç 14 gün içinde, ciddi olayda ise bildirimden sonra bir ay içinde verilir. Madde 69(3)'e göre madde 14 daha önce piyasaya sürülmüş ürünlere de uygulanır.
+
+Kaynaklar: [2023/1230](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1230), [düzeltme](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1230R(01)), [2024/2847](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2847), [2024/1689](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689), [2026/1744](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R1744).
